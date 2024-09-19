@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelka</title>
+    <style>
+        table {
+            margin-left: 180px;
+            width: 80%;
+            border-collapse: collapse;
+            margin-top: 50px;
+            align-items: center;
+            border: 2px solid black;
+
+        }
+        th, td {
+            padding: 40px;
+            text-align: center;
+            border-bottom: 2px solid #000000;
+            
+            border: 2px solid black;
+        }
+        th {
+            background-color: #f2f2f2;
+            border-bottom: 2px solid black;
+            
+            border: 2px solid black;
+        }
+        tr {
+            background-color: #f5f5f5;
+            border-bottom: 2px solid black;
+            
+            border: 2px solid black;
+            
+        }
+        .XD{
+            background-color: #f2f2f2;
+            border-bottom: 2px solid black;
+            
+            border: 2px solid black;
+            text-align: center;
+            font-size: 40px;
+            color: red;
+        }
+        .text{
+            text-align: center;
+            font-size: 50px;
+            color:black;
+
+        }
+        .akapit{
+            margin-left: 50px;
+            font-size: 25px;
+            color:black;
+
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="4" class="XD">Dane ucznia</th>
+        </tr>
+        <tr>
+            <th>Imię:</th>
+            <th>Nazwisko:</th>
+            <th>Klasa:</th>
+            <th>Ulubiony przedmiot:</th>
+        </tr>
+        <tr>
+            <td>Grzegorz</td>
+            <td>Mazur</td>
+            <td>2TP</td>
+            <td>Programowanie aplikacji internetowych</td>
+        </tr>
+        <tr>
+            <td>Patryk </td>
+            <td>Furman</td>
+            <td>2TP</td>
+            <td>Język angielski</td>
+        </tr>
+    </table>
+
+
+
+
+
+    <p class="text">Podstawowe marginesy wewnętrzne</p>
+    <p class="akapit">Dodaj marginesy wewnętrzne (padding) do komórek tabeli, aby zwiększyć odstęp pomiędzy tekstem a krawędzią komórki.</p>
+    <table >
+
+        <tr>
+            <th >Imię:</th>
+            <th >Nazwisko:</th>
+
+        </tr>
+        <tr>
+            <td >Grzegorz</td>
+            <td >Mazur</td>
+
+        </tr>
+    </table>
+    <p class="text">Zapis Podwójny Marginesu</p>
+    <p class="akapit">Ustaw różne wartości marginesów zewnętrznych dla osi pionowej (góra i dół) i poziomej (lewa i prawa).</p>
+    <table >
+
+        <tr>
+            <th style="margin: 10px 5px 5px 10px; text-align: left;">Imię:</th>
+            <th style="margin: 10px 5px 5px 10px; text-align: left;">Nazwisko:</th>
+
+        </tr>
+        <tr>
+            <td style="margin: 5px 10px 5px 10px; text-align: left;">Grzegorz</td>
+            <td style="margin: 5px 10px 5px 10px; text-align: left;">Mazur</td>
+
+        </tr>
+    </table>
+    <p class="text"> Zapis Potrójny Marginesu</p>
+    <p class="akapit">Ustaw margines górny, taki sam margines dla lewej i prawej strony, oraz margines dolny.</p>
+    <table >
+
+        <tr>
+            <th style="margin: 1px 1px 1px 1px; text-align: left;">Imię:</th>
+            <th style="margin: 1px 1px 1px 1px ; text-align: left;">Nazwisko:</th>
+
+        </tr>
+        <tr>
+            <td style="margin: 1px 1px 1px 1px; text-align: left;">Grzegorz</td>
+            <td style="margin: 1px 1px 1px 1px; text-align: left;">Mazur</td>
+
+        </tr>
+    </table>
+    <p class="text"> Zapis Poczwórny Marginesu</p>
+    <p class="akapit">Ustaw różne marginesy dla wszystkich czterech stron tabeli, zgodnie z ruchem wskazówek zegara (góra, prawy, dół, lewy).</p>
+    <table style=" margin: 10px 15px 20px 5px; ">
+
+        <tr>
+            <th style=" margin: 10px 15px 20px 5px; " >Imię:</th>
+            <th style=" margin: 10px 15px 20px 5px; "">Nazwisko:</th>
+
+        </tr>
+        <tr>
+            <td style=" margin: 10px 15px 20px 5px; ">Grzegorz</td>
+            <td style=" margin: 10px 15px 20px 5px; ">Mazur</td>
+
+        </tr>
+    </table>
+    <p class="text">Marginesy Dla Wybranych Stron</p>
+    <p class="akapit">Określ marginesy dla wybranych stron tabeli za pomocą subatrybutów margin-left, margin-right, margin-top i margin-bottom.</p>
+    <table style=" margin-left: 60px; ">
+
+        <tr>
+            <th style=" margin-right: 60px; ">Imię:</th>
+            <th style="margin-top: 10px;">Nazwisko:</th>
+
+        </tr>
+        <tr>
+            <td style="margin-top: 20px;">Grzegorz</td>
+            <td style=" margin-left: 10px;">Mazur</td>
+
+        </tr>
+    </table>
+</body>
+</html>
